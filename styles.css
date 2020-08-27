@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.navbar-brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: aqua !important;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 15px;
+    color: cadetblue!important;
+}
+
+.nav-link:hover{
+    color: blue!important;
+}
+.active .nav-link{
+    color: blue!important;
+}
+
+.menu-right-btn{
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+}
+.menu-right-btn:hover{
+color: white;
+background-color: rgb(58, 58 ,196);
+}
+
+.site-content{
+    background-image: url(./images/pic2.jpg);
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+}
+
+.site-title, .site-desc{
+    color:teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 10%;
+}
+
+.site-title{
+    margin-top: 20%;
+    margin-bottom: 6%;
+    font-style: 50px;
+}
+
+.site-btn1{
+    margin-left: 30%;
+    /* background-color: black; */
+    color: white;
+
+}
+
+.site-btn2{
+    background-color: white;
+}
+
+.site-decs{
+    font-size: 14px;
+    padding-left: 0;
+}
+.site-btn1, .site-btn2{
+    margin-bottom: 40%;
+    margin-top: 5%;
+}
+
+.section-1 .heading-1{
+    margin-top: 8%;
+}
+
+.section-1 .heading-2{
+    margin-bottom: 5%;
+}
+
+.section-1 .para-1{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.section-1 .card-text, .para-1{
+    color: rgb(19, 20, 20);
+}
+
+.section-1{
+    margin-bottom: 8%;
+}
+
+.card{
+    width: 20rem;
+}
+.reviews{
+    width: 100px;
+    height: 50px;
+}
+.head1{
+    margin-bottom: 4%;
+    color: teal;
+}
+
+.section-2 .container-fluid{
+    background-image: url(./images/pic3.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section-2 .heading-1{
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    color:teal;
+}
+.section-2 .para{
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: teal;
+    margin-bottom: 7%;
+    font-size: 20px;
+}
+
+.section-2 .btn{
+    margin-bottom: 15%;
+    width: 30%;
+    padding: 2% 5%;
+}
+.section-3{
+    margin-top: 6%;
+}
+
+.section-3 i{
+    color: teal;
+}
+
+.section-4{
+    margin-top: 8%;
+}
+
+.section-4 .row .col-md-7, .col-md-5{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.section-4 a{
+    color: crimson;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.section-4 .para-1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 7%;
+    font-size: 20px;
+}
+
+.social i{
+    color: crimson;
+    font-size: 30px;
+}
+footer{
+    background-color:teal;
+    height: 200px;
+}
