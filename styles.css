@@ -8,6 +8,13 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+.line{
+    background-color:darkcyan;
+    height: 10px;
+    width: 130px;
+    margin-left: 45%;
+    margin-bottom: 20px;
+}
 
 .navbar-brand{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -133,7 +140,8 @@ background-color: rgb(58, 58 ,196);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: teal;
     margin-bottom: 7%;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .section-2 .btn{
